@@ -7,7 +7,7 @@ const App = () => {
   return <OptimizeTheOperation />;
 };
 
-const OptimizeTheOperation = ({ onClick }) => {
+const OptimizeTheOperation = () => {
   const [number, setNumber] = useState(10000);
   const [prime, setPrime] = useState([]);
 
