@@ -4,7 +4,7 @@ import "../styles/App.css";
 import primeNumber from "../function";
 
 const App = () => {
-  return <OptimizeTheOperation onClick={number} />;
+  return <OptimizeTheOperation />;
 };
 
 const OptimizeTheOperation = ({ onClick }) => {
